@@ -4,6 +4,7 @@
   "description": "Demo",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "jasmine",
     "test --watch": "./node_modules/.bin/nodemon ./node_modules/.bin/jasmine"
   },

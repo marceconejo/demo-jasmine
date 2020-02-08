@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine",
+    "test --watch": "./node_modules/.bin/nodemon ./node_modules/.bin/jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ts-node": "^8.6.2"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "jasmine-console-reporter": "^3.1.0",
+    "jasmine-ts": "^0.3.0",
+    "nodemon": "^2.0.2"
+  }
+}
